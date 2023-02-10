@@ -1,0 +1,136 @@
+
+.hidden {
+    display: none;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: https://fonts.google.com/specimen/Overpass;
+}
+
+.attribution {
+    background-color: hsl(216, 12%, 8%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h3 {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: auto 5px auto 5px;
+    background-color: #3A3A3A;
+    opacity: 1;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+h3:hover {
+    background-color: hsl(216, 12%, 54%);
+}*/
+
+.attribution1 {
+    height: fit-content;
+}
+
+.onsubmit1 {
+    display: none;
+}
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+    width: 70%;
+    height: 39%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.img1 {
+    display: block;
+    margin: 52%;
+    transform: translate(-50%, 50%);
+
+}
+
+.imgd {
+    background-color: #3A3A3A;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+h2 {
+    display: block;
+}
+
+button {
+    display: block;
+    transform: translatex(33px);
+    width: 80%;
+    height: 30px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 15px;
+    border: transparent;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.t {
+    background-color: inherit;
+    width: fit-content;
+}
+
+.alert {
+    width: 70%;
+    height: 35%;
+    padding: 10px;
+    display: none;
+}
+
+.alert h2 {
+    margin-top: 100px;
+    color: white;
+    transform: translatex(30px);
+}
+
+.alert button {
+    transform: translatex(50px);
+}
+
+@media (min-width : 400px) {
+    .container {
+        background-color: hsl(213, 19%, 18%);
+        width: 35%;
+        height: 76%;
+    }
+    .attribution {
+        background-color: hsl(216, 12%, 8%);
+        width: 100%;
+        height: 100vh;
+    }
+    .imgd {
+        margin: 0px;
+        transform: translatey(-10px);
+    }
+    .a > h2 {
+        margin-top: 0px;
+    }
+}
+
+.s {
+    color: hsl(25, 97%, 53%);
+}
+
+.click {
+    background-color: hsl(25, 97%, 53%);
+}
